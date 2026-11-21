@@ -1,0 +1,17 @@
+RELATORIO DE VALIDACAO: ZONA/SECAO ELEITORAL -> RA (DF)
+
+Arquivo de votacao: dados\originais\votacao_secao_2026_DF.csv
+Arquivo de mapeamento: dados\territoriais\mapeamento_zona_ra_df.csv
+Turno: 1
+Linhas lidas no arquivo: 1160304
+Linhas de Governador/DF/turno 1: 59701
+Zonas distintas no arquivo: 19
+Pares zona/secao distintos: 6969
+Locais de votacao distintos: 575
+
+STATUS: NAO VALIDAVEL - mapeamento oficial nao fornecido ou invalido
+Detalhe: arquivo nao encontrado: dados\territoriais\mapeamento_zona_ra_df.csv
+Pares sem mapeamento: 1/1, 1/2, 1/3, 1/4, 1/5, 1/6, 1/7, 1/8, 1/9, 1/11, 1/13, 1/15, 1/17, 1/20, 1/21, 1/22, 1/23, 1/24, 1/33, 1/34 ... (6949 pares adicionais)
+
+Observacao: o CSV de votacao identifica zona, secao e local, mas nao identifica a RA diretamente.
+Nao foi criada equivalencia inferida por endereco ou nome de local, pois isso poderia atribuir votos incorretamente.

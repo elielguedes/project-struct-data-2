@@ -1,0 +1,9 @@
+# Executáveis
+*.exe
+*.out
+
+# Arquivos temporários
+*.o
+
+# Configurações locais da IDE
+.vscode/
